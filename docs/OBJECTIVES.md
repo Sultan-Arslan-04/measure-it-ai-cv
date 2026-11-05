@@ -100,3 +100,33 @@ All actual results are pending implementation and execution.
 | MO-2 mean mask IoU | >= 0.85 | Not measured | Pending |
 
 No result may be manually invented, rounded to conceal errors or reported without raw evidence.
+
+## Calibration experiment — initial measured result
+
+**Status:** Calibration calculated; measurement reliability remains under review.
+
+| Property | Measured result |
+|---|---|
+| Physical checkerboard squares | 10 x 8 = 80 |
+| Internal corner pattern | 9 x 7 = 63 |
+| Nominal square size | 20 mm |
+| Calibration photographs | 25 |
+| Valid photographs | 21 |
+| Rejected photographs | 4 |
+| Image resolution | 3056 x 4080 |
+| OpenCV version | 4.10.0 |
+| NumPy version | 1.26.4 |
+| Model A RMS | 5.910700 px |
+| Model B RMS | 5.968164 px |
+
+Model A is provisionally retained because it has the lower reprojection residual. This does not establish that the camera calibration is sufficiently accurate for physical measurement.
+
+The existing photographs were taken using automatic focus. This deviation is disclosed in the Plan.
+
+Evidence:
+- calibration/results/calibration_report.json
+- calibration/results/per_image_errors.csv
+- calibration/results/model_comparison.json
+- calibration/results/detection_summary.csv
+
+The physical measurement accuracy objective remains unmeasured.

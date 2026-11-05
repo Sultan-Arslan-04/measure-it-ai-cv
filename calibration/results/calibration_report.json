@@ -1,0 +1,75 @@
+{
+    "opencv_version": "4.10.0",
+    "numpy_version": "1.26.4",
+    "checkerboard_internal_corners": [
+        9,
+        7
+    ],
+    "square_size_mm": 20.0,
+    "total_images": 25,
+    "valid_images": 21,
+    "rejected_images": 4,
+    "image_resolution": {
+        "width": 3056,
+        "height": 4080
+    },
+    "camera_matrix": [
+        [
+            3222.207484143256,
+            0.0,
+            1583.3155586450187
+        ],
+        [
+            0.0,
+            3214.817649241596,
+            1988.127484306801
+        ],
+        [
+            0.0,
+            0.0,
+            1.0
+        ]
+    ],
+    "distortion_coefficients": [
+        0.19935165479217773,
+        -0.7050683212130999,
+        -0.002612709543845208,
+        0.009157712842181752,
+        0.9985382914099021
+    ],
+    "opencv_rms_reprojection_error_px": 5.910700406764524,
+    "overall_reprojection_rms_px": 5.910699806201132,
+    "valid_images_used": [
+        "calib_002.jpg",
+        "calib_003.jpg",
+        "calib_004.jpg",
+        "calib_005.jpg",
+        "calib_007.jpg",
+        "calib_008.jpg",
+        "calib_010.jpg",
+        "calib_012.jpg",
+        "calib_013.jpg",
+        "calib_014.jpg",
+        "calib_015.jpg",
+        "calib_016.jpg",
+        "calib_017.jpg",
+        "calib_018.jpg",
+        "calib_019.jpg",
+        "calib_020.jpg",
+        "calib_021.jpg",
+        "calib_022.jpg",
+        "calib_023.jpg",
+        "calib_024.jpg",
+        "calib_025.jpg"
+    ],
+    "physical_squares": [
+        10,
+        8
+    ],
+    "physical_square_count": 80,
+    "internal_corners": [
+        9,
+        7
+    ],
+    "internal_corner_count": 63
+}

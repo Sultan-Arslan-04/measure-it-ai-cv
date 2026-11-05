@@ -1,0 +1,28 @@
+{
+    "project": "Measure It",
+    "calibration_file": "calibration/results/calibration_data.npz",
+    "calibration_rms_px": 5.910700406764524,
+    "image_resolution": [
+        3056,
+        4080
+    ],
+    "source_images": 95,
+    "undistorted_images": 95,
+    "split_counts": {
+        "train": 67,
+        "val": 19,
+        "test": 9
+    },
+    "output_format": "PNG",
+    "reference_dictionary": "DICT_4X4_50",
+    "reference_marker_id": 23,
+    "reference_nominal_size_mm": 60.0,
+    "reference_detection_counts": {
+        "train_detected": 62,
+        "train_missing": 5,
+        "val_detected": 19,
+        "val_missing": 0
+    },
+    "test_marker_audit": "Not performed",
+    "original_images_modified": false
+}
